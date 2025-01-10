@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: linear-gradient(to right top, red, rgb(73, 4, 4));
+}
+#gluwna1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gluwna2{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#buttons{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all{
+ 
+   border-radius: 17px;
+}
