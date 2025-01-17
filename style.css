@@ -1,29 +1,125 @@
+*{
+    margin: 0;
+}
 body{
-    height: 100vh;
+    height: 99vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 100px;
-    background: linear-gradient(to right top, red, rgb(73, 4, 4));
+    background: linear-gradient(to top,  rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0));
 }
 #gluwna1{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #gluwna2{
- 
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#buttons{
-    
+#button{
+    width: 185px;
+    margin-top: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
+
 .all{
- 
-   border-radius: 17px;
+    height: 200px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+.resultat{
+    padding-left: 5px;
+    width: 100%;
+    height: 100%;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+.res{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.tt{
+    display: flex;
+    justify-content: center;
+}
+.ball1 {
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50;
+    transform:
+        translateY(-120%);
+   
+}
+.ball2 {
+    left: 4%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50;
+    transform:
+        translateY(-50%);
+   
+}
+.form1{
+    left: 70%;
+    width: 350px;
+    height: 350px;
+    border-radius: 200%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50;
+    transform:
+        translateY(30%);
+    
+}
+.form2{
+    left: 66%;
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50;
+    transform:
+        translateY(-200%);
+}
+
+
+
+.form4{
+    left: 10%;
+    width: 50px;
+    height: 50px;
+    border-radius: 70%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 20;
+    transform:
+        translateY(120%);
+}
+.form5 {
+    left: 20%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50;
+    transform:
+        translateY(70%);
 }
