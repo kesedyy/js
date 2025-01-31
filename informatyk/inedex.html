@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="con">
+        <h1>Zawody polskich wędkarzyc</h1>
+        <img src="zawody.jpg" alt="bag">
+
+    </div>
+    <div class="dd">
+        <h2 id="hh">Łowiska</h2>
+        <ul>
+            <li>Zalew Węgrowski</li>
+            <li>Zbiornik Bukówka</li>
+            <li>Jeziorko Bartbetowskie</li>
+            <li>Warta-Obrzycko</li>
+        </ul>
+        <h2>Dodaj zawody wędkarskie</h2>
+        <div class="fem">
+            <p>Łowisko:</p>
+            <input id="input" type="text">
+        </div>
+        <div class="fem">
+            <p>Data:</p>
+            <input  id="input2" type="date">
+        </div>
+        <div class="fem">
+            <p>Sędzia:</p>
+            <input id="input3" type="text">
+        </div>
+        <button class="but" onclick="reset()">CZYSC</button>
+        <button class="but" >PODAJ</button>
+    </div>
+
+    <div class="niz">
+        <button onclick="kwarenda()" id="ff">Pobierz</button>
+        <p>Starona przygotował: Oleksandr Zhelieznov</p>
+    </div>
+    <script>
+        function reset() {
+            document.getElementById("input").value = "";
+            document.getElementById("input2").value = "";
+            document.getElementById("input3").value = "";
+        }
+        function kwarenda() {
+            window.location.href = "kwarenda.txt";
+        }
+    </script>
+</body>
+
+</html>
